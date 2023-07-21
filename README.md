@@ -17,3 +17,8 @@ git add .
 git commit -m"commnet"
 
 git push --set-upstream origin <branch nomi>
+
+
+### url
+
+https://www.figma.com/file/qI9SF81DpQCAgdHqyYrtfX/Free-Crypto-Dashboard---RecehTok-Dark-(Community)?type=design&node-id=45%3A790&mode=design&t=mGhTi2OEL5RFTcTO-1
