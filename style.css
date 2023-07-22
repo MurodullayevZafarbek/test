@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(123.22% 129.67% at 100.89% -5.60%, #201D47 0%, #17153A 100%);
+}
+
+.home .container {
+    width: 83.3%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 66px;
+}
+
+.home .container .bigRectangle {
+    width: 75%;
+    height: 190px;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 6px 6px 0px 0px;
+    border: 1px solid #59588D;
+}
+
+.home .container .bigRectangle .smallRectangle {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 6px 6px 0px 0px;
+    border: 1px solid #59588D; */
+}
+
+.home .container .bigRectangle .smallRectangle .top {
+    width: 100%;
+    height: 148px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.home .container .bigRectangle .smallRectangle .top .month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    color: #C9D1D9;
+    font-family: Noto Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 163.636% */
+}
+
+.home .container .bigRectangle .smallRectangle .top .center .day {
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: #C9D1D9;
+    font-family: Noto Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 163.636% */
+    position: absolute;
+    top: 0;
+    left: 32px;
+    text-align: center;
+}
+
+.home .container .bigRectangle .smallRectangle .top .center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.home .container .bigRectangle .smallRectangle .top .center .date{
+    height: 120px;
+    display: flex; 
+    gap: 4px;
+    position: absolute;
+    top: 9px;
+    margin-left: 15px;
+}
+
+.home .container .bigRectangle .smallRectangle .top .center .date .df{
+    display: flex; 
+    flex-direction: column;
+    gap: 6px;
+}
+.home .container .bigRectangle .smallRectangle .top .center .date .df .kube{
+    width: 11px;
+    height: 11px;
+    background: #59588D;
+    border-radius: 2px;
+}
+
+.home .container .bigRectangle .smallRectangle .top .center .date .df .gr{
+    background-color: #006D32;
+}
+
+.home .container .bigRectangle .smallRectangle .top .center .date .df .zl{
+    background-color: #39D353;
+}
+
+
+
+.home .container .bigRectangle .smallRectangle .bottom {
+    width: 100%;
+    height: 26px;
+    padding: 4px 32px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 513.612px;
+    flex-shrink: 0;
+    color: #8B949E;
+    font-family: Noto Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 163.636% */
+    display: flex;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right .cubes {
+    display: flex;
+    width: auto;
+    height: 10px;
+    gap: 3.3px;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right .cube {
+    width: 10px;
+    height: 10px;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right .cube:first-child {
+    background-color: #59588D;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right .cube:nth-child(2) {
+    background-color: #0E4429;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right .cube:nth-child(3) {
+    background-color: #006D32;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right .cube:nth-child(4) {
+    background-color: #26A641;
+}
+
+.home .container .bigRectangle .smallRectangle .bottom .right .cube:nth-child(5) {
+    background-color: #39D353;
+}
